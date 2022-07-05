@@ -1,10 +1,10 @@
-package net.mrchar.demo.springcloud;
+package net.mrchar.demo.nacos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringCloudDemoApplicationTests {
+class NacosDemoApplicationTests {
 
     @Test
     void contextLoads() {
