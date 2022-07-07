@@ -7,3 +7,9 @@ services:
       - "8090:8090"
       - "8091:8091"
       - "8093:8093"
+  console:
+    image: polarismesh/polaris-console:latest
+    volumes:
+      - ./polaris-console.yaml:/root/polaris-console.yaml
+    ports:
+      - "8081:8080"
